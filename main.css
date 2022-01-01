@@ -34,6 +34,13 @@ html {
     color: rgb(28, 199, 221);
 }
 
+#button1{
+    font-size: 20px;
+    border-radius: 8px;
+    width: 250px;
+    background-color: #FFD700;
+}
+
 .hero-text {
     span {
         text-transform: uppercase;
@@ -52,3 +59,12 @@ html {
     font family: cursive;
     font:bold;
 }
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+... 
